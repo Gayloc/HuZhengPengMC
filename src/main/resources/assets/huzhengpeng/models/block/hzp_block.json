@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "huzhengpeng:block/hzp_block"
+  }
+}

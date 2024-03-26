@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "huzhengpeng",
+  "version": "${version}",
+  "name": "HuZhengPeng",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/Gayloc/HuZhengPeng"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/huzhengpeng/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "org.gayloc.huzhengpeng.client.HuZhengPengClient"
+    ],
+    "main": [
+      "org.gayloc.huzhengpeng.HuZhengPeng"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
